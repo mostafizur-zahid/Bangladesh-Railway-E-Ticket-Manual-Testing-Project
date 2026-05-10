@@ -1,444 +1,422 @@
 <div align="center">
 
-# Bangladesh Railway E-Ticketing System
-### Complete Manual Testing & QA Documentation Project
+# 🚆 Bangladesh Railway E-Ticketing System  
+## Manual Testing Project
 
-![Testing](https://img.shields.io/badge/Testing-Manual%20Testing-blue)
-![STLC](https://img.shields.io/badge/STLC-Implemented-success)
-![QA](https://img.shields.io/badge/QA-SQA-orange)
-![Status](https://img.shields.io/badge/Status-In%20Progress-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Web%20Application-purple)
+Comprehensive Manual QA Testing Project Conducted on the Official Bangladesh Railway E-Ticketing Platform
+
+🔗 Website Under Test: https://eticket.railway.gov.bd/
 
 </div>
 
 ---
 
-# Project Overview
+# 📌 Project Overview
 
-This repository contains a complete **Manual Testing Project** for the **Bangladesh Railway E-Ticketing System**.
+The Bangladesh Railway E-Ticketing System is an online railway ticket booking platform that enables users to:
 
-The objective of this project is to perform end-to-end manual testing on the Bangladesh Railway online ticket booking platform by validating:
-
-- Functional requirements
-- Input validations
-- User workflows
-- Authentication system
-- Browser compatibility
-- UI/UX behavior
-- Security-related validations
-- Error handling
-- Overall system usability
-
-The project follows proper **Software Testing Life Cycle (STLC)** methodology and includes professional QA documentation artifacts.
-
----
-
-# Application Under Test (AUT)
-
-## Bangladesh Railway E-Ticketing System
-
-Website:
-https://eticket.railway.gov.bd/
-
-The platform allows users to:
-
-- Register accounts
+- Search trains
+- Register user accounts
 - Verify NID information
 - Login securely
-- Search trains
-- Check train schedules
-- View seat availability
-- Book train tickets
-- Manage passenger information
-- Download and print tickets
+- Access train information
+- Contact support services
+- Purchase railway tickets online
+
+This project focuses on validating the application's:
+
+- Functional behavior
+- Input validation
+- User interface
+- Compatibility
+- Security validation
+- Error handling
+- Overall system quality
+
+The testing process was conducted using real-world Software Quality Assurance (SQA) methodologies and industry-standard QA documentation practices.
 
 ---
 
-# Project Objectives
+# 🎯 Project Objectives
 
 The main objectives of this project are:
 
-- Verify all major functionalities of the application
-- Validate form fields and business logic
-- Identify defects and inconsistencies
-- Ensure proper error handling
-- Improve application reliability
-- Practice real-world software QA processes
-- Build professional SQA portfolio experience
+- Validate system functionality
+- Detect validation issues
+- Identify UI/UX inconsistencies
+- Discover real-world bugs
+- Ensure proper input handling
+- Verify browser compatibility
+- Improve software reliability
+- Practice industry-standard QA workflow
 
 ---
 
-# STLC Process Followed
-
-This project follows complete STLC phases:
-
-1. Requirement Analysis
-2. Test Planning
-3. Mind Mapping
-4. Test Scenario Creation
-5. Test Case Design
-6. Test Execution
-7. Bug Reporting
-8. Retesting
-9. Regression Testing
-10. Test Closure
-
----
-
-# Modules Covered
-
-| Module | Description |
-|---|---|
-| Home | Train Search Functionality |
-| Register | User Registration & NID Verification |
-| Login | Authentication & Access Validation |
-| Train Information | Train Search & Details |
-| Contact Us | Support Information Validation |
-
----
-
-# Features Tested
-
----
-
-## Home Module
-
-### Functionalities Tested
-
-- From Station dropdown
-- To Station dropdown
-- Date of Journey
-- Choose Class dropdown
-- Search Train button
-- Train Search validation
-
----
-
-## Register Module
-
-### NID Verification Section
-
-- Full Name validation
-- Mobile Number validation
-- NID Number validation
-- Date of Birth validation
-- reCAPTCHA functionality
-- Verify button functionality
-
----
-
-### Final Registration Section
-
-- Email validation
-- Confirm Mobile validation
-- Identification Type dropdown
-- Identification Number validation
-- Post Code validation
-- Address validation
-- Password validation
-- Confirm Password validation
-- Password visibility toggle
-- File Upload validation
-- Sign Up functionality
-
----
-
-## Login Module
-
-### Functionalities Tested
-
-- Mobile Number validation
-- Password validation
-- Valid login
-- Invalid login
-- Forgot Password functionality
-- Error message validation
-
----
-
-## Train Information Module
-
-### Functionalities Tested
-
-- Train information search
-- Train details visibility
-- Train search validation
-
----
-
-## Contact Us Module
-
-### Functionalities Tested
-
-- Support Email
-- Refund Contact
-- Hotline information
-- Terms & Conditions
-- Privacy Policy
-
----
-
-# Testing Types Performed
+# 🧪 Testing Types Performed
 
 | Testing Type | Description |
 |---|---|
-| Functional Testing | Validate system functionalities |
-| UI Testing | Validate user interface |
-| Validation Testing | Validate field restrictions |
-| Regression Testing | Verify existing functionalities after fixes |
-| Compatibility Testing | Cross-browser validation |
-| Security Testing | Input & authentication validation |
-| Performance Testing | Basic load and response validation |
+| Functional Testing | Validated core system functionality |
+| Validation Testing | Checked input validations and error handling |
+| UI Testing | Verified user interface behavior and alignment |
+| Compatibility Testing | Tested across multiple browsers |
+| Security-Oriented Testing | Checked input validation against malicious payloads |
+| Responsive Testing | Verified responsiveness across devices |
+| Session Testing | Validated session timeout functionality |
+| Performance Observation | Observed page loading behavior |
 
 ---
 
-# Test Artifacts Included
+# 🖥️ Test Environment
 
-| Artifact | Status |
+| Field | Details |
 |---|---|
-| Test Plan | Completed |
-| Mind Map | Completed |
-| Test Scenarios | Completed |
-| Test Cases | Completed |
-| Bug Report | In Progress |
-| Test Metrics | In Progress |
-| Test Summary Report | In Progress |
+| Environment | Production |
+| Operating System | Linux (Kali Linux) |
+| Browsers Tested | Chrome, Firefox, Edge |
+| Testing Method | Manual Testing |
+| Documentation Tool | Google Sheets / Excel |
+| Mind Mapping Tool | XMind |
+| Version Control | GitHub |
 
 ---
 
-# Repository Structure
+# 📂 Modules Covered
+
+---
+
+## 🏠 Home Module
+
+### Features Tested
+- URL Accessibility
+- From Station Dropdown
+- To Station Dropdown
+- Date of Journey
+- Choose Class
+- Search Train Functionality
+
+---
+
+## 📝 Register Module
+
+### Features Tested
+- Full Name Validation
+- Mobile Number Validation
+- NID Validation
+- Date of Birth Validation
+- Email Validation
+- Confirm Mobile Validation
+- Identification Type
+- Identification Number
+- Post Code Validation
+- Address Field
+- Password Validation
+- Confirm Password Validation
+- Password Visibility Toggle
+- File Upload Validation
+- reCAPTCHA Validation
+- Sign Up Validation
+
+---
+
+## 🔐 Login Module
+
+### Features Tested
+- Login Validation
+- Mobile Number Validation
+- Password Validation
+- Invalid Login Handling
+- Forgot Password
+
+---
+
+## 🚉 Train Information Module
+
+### Features Tested
+- Train Search
+- Train Information Display
+- Train Details Validation
+
+---
+
+## 📞 Contact Us Module
+
+### Features Tested
+- Support Email
+- Terms & Conditions
+- Privacy Policy
+- Hotline Information
+
+---
+
+## 🌐 General Testing
+
+### Features Tested
+- Browser Compatibility
+- Responsive Design
+- Session Timeout
+- Security Input Validation
+- Page Loading Observation
+
+---
+
+# 📊 Test Artifacts Included
+
+| Sheet Name | Description |
+|---|---|
+| Test Plan | Complete testing scope and strategy |
+| Mind Maps | Visual testing flow and feature mapping |
+| Test Scenarios | High-level testing scenarios |
+| TestCase | Detailed test cases with execution results |
+| Test Summary Report | Overall testing execution summary |
+| Bug Report | Real bug findings and defect reporting |
+| Test Metrics | QA execution metrics and statistics |
+| Recommendation | Suggested improvements |
+
+---
+
+# 🧠 Mind Mapping
+
+The project includes a complete visual QA testing structure using XMind.
+
+### Mind Map Includes:
+- Home Module
+- Register Module
+- Login Module
+- Train Information
+- Contact Us
+- Validation Areas
+- Testing Flow
+
+---
+
+# 📋 Sample Test Scenarios
+
+| Test Scenario ID | Module | Description |
+|---|---|---|
+| TS_001 | Home | Verify website URL accessibility |
+| TS_006 | Home | Verify Search Trains functionality |
+| TS_010 | Register | Verify Full Name field validation |
+| TS_019 | Register | Verify Email field validation |
+| TS_027 | Register | Verify Password field validation |
+| TS_040 | Login | Verify successful login |
+| TS_053 | General | Verify website responsiveness |
+
+---
+
+# ✅ Sample Test Cases
+
+| Module | Feature | Test Case | Expected Result |
+|---|---|---|---|
+| Register | Full Name | Enter numeric values in Full Name field | System should reject numeric input |
+| Register | Email | Enter invalid email format | System should show validation error |
+| Register | Password | Enter strong password | System should accept password |
+| Login | Password | Enter invalid password | System should show invalid credentials |
+| Home | Search Train | Search with valid data | System should display train list |
+
+---
+
+# 🐞 Real Bugs Identified
+
+The following real-world bugs were discovered during testing:
+
+---
+
+## BUG_01
+
+### Issue
+Date of Birth calendar month dropdown does not display all 12 months.
+
+### Severity
+P2
+
+### Module
+Register
+
+---
+
+## BUG_02
+
+### Issue
+Date of Birth year dropdown shows limited year range only.
+
+### Severity
+P1
+
+### Module
+Register
+
+---
+
+## BUG_03
+
+### Issue
+Full Name field accepts numeric values.
+
+### Severity
+P2
+
+### Module
+Register
+
+---
+
+## BUG_04
+
+### Issue
+Full Name field accepts special characters.
+
+### Severity
+P2
+
+### Module
+Register
+
+---
+
+## BUG_05
+
+### Issue
+Post Code field accepts more than valid 4-digit Bangladesh postal code.
+
+### Severity
+P3
+
+### Module
+Register
+
+---
+
+# 📈 Test Execution Summary
+
+| Metric | Result |
+|---|---|
+| Total Test Cases | 40 |
+| Passed | 35 |
+| Failed | 5 |
+| Blocked | 0 |
+| Not Executed | 0 |
+| Pass Rate | 90% |
+| Fail Rate | 10% |
+
+---
+
+# 🔒 Security-Oriented Input Testing
+
+The following payloads and invalid inputs were tested:
+
+| Test Type | Payload |
+|---|---|
+| SQL Injection | `' OR 1=1--` |
+| XSS Payload | `<script>alert(1)</script>` |
+| Invalid Email | `zahidgmail.com` |
+| Numeric Name | `12345` |
+| Special Character Name | `@#$%^` |
+
+---
+
+# 🌍 Browser Compatibility Testing
+
+| Browser | Status |
+|---|---|
+| Google Chrome | Passed |
+| Mozilla Firefox | Passed |
+| Microsoft Edge | Passed |
+
+---
+
+# 📱 Responsive Testing
+
+Responsive behavior was observed across:
+
+- Desktop Devices
+- Laptop Screens
+- Mobile Devices
+
+---
+
+# ⚙️ Tools & Technologies Used
+
+| Tool | Purpose |
+|---|---|
+| Google Sheets / Excel | Test Documentation |
+| XMind | Mind Mapping |
+| Google Chrome DevTools | Browser Testing |
+| GitHub | Version Control & Project Hosting |
+
+---
+
+# 📁 Repository Structure
 
 ```bash
-Bangladesh-Railway-E-Ticket-Manual-Testing/
+Bangladesh-Railway-E-Ticket-Manual-Testing-Project/
 │
-├── Test Plan/
-├── Mind Map/
-├── Test Scenarios/
-├── Test Cases/
-├── Bug Report/
-├── Test Metrics/
-├── Test Summary Report/
-├── Screenshots/
-└── README.md
+├── BUG/
+│   ├── Bug Screenshots
+│   └── Evidence Files
+│
+├── BD Railway e-ticket Manual Testing Project.xlsx
+│
+├── README.md
 ```
 
 ---
 
-# Sample Test Scenarios
+# 📚 Key Learning Outcomes
 
-| Test Scenario ID | Description | Priority |
-|---|---|---|
-| TS_001 | Validate URL accessibility | P0 |
-| TS_010 | Validate Full Name field | P1 |
-| TS_019 | Validate Email field | P1 |
-| TS_027 | Validate Password field | P0 |
-| TS_040 | Validate successful login | P0 |
-| TS_056 | Validate error message handling | P1 |
+Through this project, the following QA practices were implemented:
 
----
-
-# Sample Test Cases
-
-| Test Case | Expected Result |
-|---|---|
-| Enter valid email | System should accept email |
-| Enter invalid email | System should display error |
-| Enter weak password | System should reject password |
-| Upload unsupported file | System should reject upload |
-| Login with valid credentials | User should login successfully |
-
----
-
-# Sample Defects Found
-
-| Bug ID | Module | Severity | Status |
-|---|---|---|---|
-| BUG_001 | Full Name Validation | Medium | Open |
-| BUG_002 | Invalid Email Acceptance | High | Open |
-| BUG_003 | Special Character Validation | Medium | Open |
-| BUG_004 | Weak Password Acceptance | Medium | Open |
-
----
-
-# Test Environment
-
-| Component | Details |
-|---|---|
-| Operating System | Windows 10/11 |
-| Browsers | Chrome, Firefox, Edge |
-| Testing Type | Manual Testing |
-| Devices | Desktop & Mobile |
-| Documentation Tool | Microsoft Excel |
-| Bug Tracking | Jira (Planned) |
-
----
-
-# Technology Stack Identified
-
-| Technology | Details |
-|---|---|
-| Frontend Framework | Angular |
-| JavaScript Library | zone.js |
-| Programming Language | TypeScript |
-| Additional Language | JavaScript |
-| Web Server | Nginx |
-
----
-
-# Entry Criteria
-
-- Application accessible
-- Test environment ready
-- Test cases prepared
-- Test data available
-- Functional requirements understood
-
----
-
-# Exit Criteria
-
-- Critical defects resolved
-- Major functionalities verified
-- Test execution completed
-- Test summary prepared
-- Regression testing completed
-
----
-
-# Deliverables
-
-### Before Testing
-
-- Test Plan
-- Test Scenarios
-- Mind Map
-- Test Design
-
-### During Testing
-
-- Test Cases
-- Test Execution Report
-- Bug Report
-- Screenshots
-
-### After Testing
-
-- Test Summary Report
-- Defect Summary
-- Final QA Documentation
-
----
-
-# Challenges Faced During Testing
-
-- Validation inconsistencies
-- Input handling issues
-- Browser compatibility observations
-- Form submission edge cases
-- File upload restrictions
-
----
-
-# Key Learning Outcomes
-
-This project helped strengthen practical skills in:
-
-- Manual Testing
-- STLC & SDLC
-- QA Documentation
-- Requirement Analysis
+- End-to-end Manual Testing Workflow
 - Test Planning
 - Mind Mapping
 - Test Scenario Design
-- Test Case Writing
+- Detailed Test Case Writing
 - Bug Reporting
-- Validation Testing
-- Cross-Browser Testing
-- Defect Tracking
+- Metrics Calculation
+- Validation Strategy Design
+- Security-Focused Negative Testing
+- Professional QA Documentation
 
 ---
 
-# Future Improvements
+# ⭐ Project Highlights
 
-Upcoming updates planned:
-
-- Complete RTM (Requirement Traceability Matrix)
-- Complete Bug Report
-- Automation Testing
-- API Testing
-- Performance Testing
-- Security Testing Enhancements
-- CI/CD Testing Integration
-
----
-
-# Tools Used
-
-| Tool | Purpose |
-|---|---|
-| Microsoft Excel | Test Cases & Reports |
-| XMind | Mind Mapping |
-| Jira | Defect Tracking |
-| Browser DevTools | Inspection & Validation |
-| GitHub | Version Control |
+✅ Real Production Website Testing  
+✅ Industry-Style QA Documentation  
+✅ Real Bug Discovery  
+✅ Professional Test Reporting  
+✅ Security Validation Testing  
+✅ Portfolio-Ready QA Project  
+✅ Structured Testing Workflow  
+✅ Complete Manual Testing Lifecycle  
 
 ---
 
-# Project Status
-
-## Current Status: In Progress
-
-The project is actively being improved with:
-
-- Additional edge case testing
-- More bug documentation
-- Better test coverage
-- Advanced QA artifacts
-
----
-
-# Author
+# 👨‍💻 Author
 
 # Md. Mostafizur Rahman Zahid
 
-### Aspiring Security Engineer | SQA Enthusiast | DevSecOps Learner
+### Aspiring Security Engineer | SQA Enthusiast | DevSecOps Learner | Cybersecurity Researcher
+
+🔗 GitHub: https://github.com/mostafizur-zahid
+
+🔗 LinkedIn: https://www.linkedin.com/in/mostafizur-zahid/
 
 ---
 
-## Contact Information
-
-- Email: zahid9.cse@gmail.com
-- GitHub: https://github.com/
-
----
-
-# Disclaimer
+# 📌 Disclaimer
 
 This project was created strictly for:
 
-- Educational purposes
-- Skill development
-- QA practice
-- Portfolio showcase
+- Educational Purposes
+- QA Practice
+- Portfolio Demonstration
+- Manual Testing Learning
 
-No harmful activity, exploitation, or unauthorized manipulation was performed against the target application.
-
----
-
-# References
-
-- Bangladesh Railway E-Ticketing System
-  https://eticket.railway.gov.bd/
+No harmful activity, exploitation, or unauthorized system modification was performed during testing.
 
 ---
 
-# Thank You
+# ⭐ Support
 
-If you found this repository useful, feel free to:
-
-- Star the repository
-- Fork the project
-- Share feedback
-- Connect professionally
-
----
+If you found this project useful, consider giving the repository a ⭐ on GitHub.
